@@ -8,8 +8,13 @@
 
 int main(void)
 {
-	for (a = 0; a <= 10; a++)
-		putchar(a);
+	int n = 0;
+
+	while (n < 10)
+	{
+		printf("%i", n);
+		n++;
+	}
 	putchar('\n');
 	return (0);
 }
