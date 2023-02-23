@@ -3,6 +3,7 @@
 /**
  * print_line - print n underscore characters
  * @n number of times to print _
+ *
  */
 void print_line(int n)
 {
