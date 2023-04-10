@@ -2,6 +2,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+char *create_buffer(char *f);
+void close_f(int fc);
+
 /**
  * create_buffer - Allocates 1024 bytes for a buffer.
  * @f: The name of the file buffer is storing chars for.
