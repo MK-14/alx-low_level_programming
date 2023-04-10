@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+char *create_buffer(char *f);
 void close_f(int fc);
 
 /**
